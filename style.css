@@ -1,0 +1,8 @@
+.name{
+    font-family: 'Cursive';
+    color: cyan;
+}
+
+@keyframes mymove {
+    50% {background-color: blue;}
+  }
