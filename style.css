@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');*
 
+
 {
   margin: 0;
   padding: 0;
@@ -12,14 +13,22 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #252839;
+  background: black;
 }
+
+h1{
+  position: relative;
+  font-size: 60px;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
 
 h2{
   position: relative;
-  font-size: 14vw;
-  color: #252839;
-  -webkit-text-stroke: 0.3vw #329d52;
+  font-size: 60px;
+  color: black9;
+  -webkit-text-stroke: 0.5px #329d52;
   text-transform: capitalize;
 }
 
@@ -35,11 +44,11 @@ h2::before
   -webkit-text-stroke: 0vw  #252839;
   border-right: 2px solid #01fe87 ;
   overflow: hidden;
-  animation: animate 6s linear infinite;
+  animation: animate 4.5s linear infinite;
 }
 
 @keyframes animate {
-  0%,10%,100%
+  0%,20%,100%
   {
     width: 0;
   }
@@ -49,6 +58,12 @@ h2::before
   }
 }
 
-.div1{
-  size: 1px;
+.avatar {
+  position: absolute;
+  top: 50px ;
+  left: 620px;
+  bottom: 100px;
+  height : 200px;
+  width: 170px ;
+  border-radius: 50%;
 }
