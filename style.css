@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');*
-
-
-
-{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -80,6 +77,7 @@ h2:hover::after{
   }
 }
 
+
 .avatar {
   position: absolute;
   top: 50px ;
@@ -116,7 +114,7 @@ h2:hover::after{
   color: #ac07ff;
   position: absolute;
   top: 65%;
-  left: 60%;
+  left: 52%;
   transform: translate(-50%,-50%);
   background: none;
   padding: 0 40px;
@@ -162,6 +160,39 @@ h2:hover::after{
   color: white;
   position: absolute;
   top: 60%;
-  left: 36%;
+  left: 30%;
   font-size: 40px;
+}
+
+.aboutme{
+  font-size: 20px;
+  color: #01fe87;
+  position: fixed;
+  bottom: 20%;
+  left: 5%;
+  padding: 0 10px;
+}
+
+aboutme:after{
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+aboutme:hover:after{
+  width: 100%;
+}
+
+.aboutcontent{
+font-size: 15px;
+text-align: justify;
+color: azure;
+position: fixed;
+bottom: 10%;
+left: 5%;
 }
