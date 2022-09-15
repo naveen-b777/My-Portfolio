@@ -110,33 +110,58 @@ h2:hover::after{
   border-radius: 50%;
 }
 
-.hh66Heading {
+
+
+.animated-text{
+  color: #ac07ff;
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  background: none;
+  padding: 0 40px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.line{
+  text-align:left;
   font-size: 40px;
+  line-height: 60px;    
+}
+
+.line:first-child{
+  animation: anim 12s infinite;
+}
+
+@keyframes anim {
+  0%{
+    margin-top: 0px;
+  }
+  16%{
+    margin-top: -60px;
+  }
+  33%{
+    margin-top: -120px;
+  }
+  50%{
+    margin-top: -180px;
+  }
+  66%{
+    margin-top: -120px;
+  }
+  82%{
+    margin-top: -60px;
+  }
+  100%{
+    margin-top: 0px;
+  }
+}
+
+.div1{
   color: white;
-  letter-spacing: .3px;
-  font-weight: bold;
-  -webkit-font-smoothing: auto;
-  margin: 0;
-  position: fixed;
-  bottom: 100px ;
-  left: 200px;
-}
-
-.slider{
+  position: absolute;
+  top: 60%;
+  left: 36%;
   font-size: 40px;
-   color: cyan;
-   margin-left: 12px;
-   box-sizing: border-box;
-   animation: slider 6s linear infinite;
 }
-
-@keyframes slider {
-  0% {margin-top: -200px;}
-  30% {margin-top: -200px;}
-  35% {margin-top: 0px;}
-  65% {margin-top: 0px;}
-  70% {margin-top: 200px;}
-  100% {margin-top: 200px;}
-}
-
-
