@@ -13,7 +13,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background:  url('bg.jpg');
+  background:  url('bgg.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +21,7 @@ body{
 }
 
 h1{
-  position: relative;
+  position: absolute;
   font-size: 60px;
   color: whitesmoke;
   text-transform: capitalize;
@@ -29,7 +29,7 @@ h1{
 
 
 h2{
-  position: relative;
+  position: absolute;
   font-size: 60px;
   color: black9;
   -webkit-text-stroke: 0.5px #329d52;
@@ -80,9 +80,8 @@ h2:hover::after{
 
 .avatar {
   position: absolute;
-  top: 50px ;
-  left: 620px;
-  bottom: 100px;
+  top: 10% ;
+  left: 45%;
   height : 200px;
   width: 170px ;
   border-radius: 50%;
@@ -167,32 +166,78 @@ h2:hover::after{
 .aboutme{
   font-size: 20px;
   color: #01fe87;
-  position: fixed;
-  bottom: 20%;
-  left: 5%;
-  padding: 0 10px;
-}
-
-aboutme:after{
-  content: "";
   position: absolute;
-  background-color: #ff3c78;
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-
-aboutme:hover:after{
-  width: 100%;
+  top:78%;
+  left: 3%;
+  padding: 0 10px;
 }
 
 .aboutcontent{
 font-size: 15px;
-text-align: justify;
+text-align:start;
 color: azure;
-position: fixed;
-bottom: 10%;
+position: absolute;
+top: 550px;
 left: 5%;
 }
+
+.eh{
+  font-size: 20px;
+  color: #01fe87;
+  position: absolute;
+  top:650px;
+  left: 3%;
+  padding: 0 10px;
+}
+
+.table{
+  width:40%;
+  /* height: 080px; */
+  border:1px solid #ac07ff;
+  /* border-spacing: 1px ; */
+  text-align: left;
+  padding: 8px;
+  position: absolute;
+  left:5%;
+  top:700px;
+}
+
+
+.int{
+  font-size: 20px;
+  color: #01fe87;
+  position: absolute;
+  top: 880px;
+  left: 3%;
+  padding: 0 10px;
+}
+
+.ul1{
+  list-style: circle; /* Remove default bullets */
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 920px;
+  left: 6%;
+  padding: 0 10px;
+}
+
+.pd{
+  font-size: 20px;
+  color: #01fe87;
+  position: absolute;
+  top: 1060px;
+  left: 3%;
+  padding: 0 10px;
+}
+
+.ul2{
+  list-style: circle; /* Remove default bullets */
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 1100px;
+  left: 6%;
+  padding: 0 10px;
+}
+
