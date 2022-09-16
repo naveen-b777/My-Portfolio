@@ -84,30 +84,8 @@ h2:hover::after{
   left: 45%;
   height : 200px;
   width: 170px ;
-  border-radius: 50%;
+  border-radius: 25%;
 }
-
-.circle1 {
-  position: fixed;
-  bottom: 500px ;
-  right: 1200px;
-  height: 250px;
-  width: 250px;
-  background-color: #01fe87;
-  border-radius: 50%;
-}
-
-.circle2 {
-  position: fixed;
-  bottom: 500px ;
-  left: 1200px;
-  height: 250px;
-  width: 250px;
-  background-color: #01fe87;
-  border-radius: 50%;
-}
-
-
 
 .animated-text{
   color: #ac07ff;
@@ -241,3 +219,84 @@ left: 5%;
   padding: 0 10px;
 }
 
+.ie{
+  font-size: 20px;
+  color: #01fe87;
+  position: absolute;
+  top: 1200px;
+  left: 3%;
+  padding: 0 10px;
+}
+
+.ul3{
+  list-style: circle; /* Remove default bullets */
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 1240px;
+  left: 6%;
+  padding: 0 10px;
+}
+
+.cc{
+  font-size: 20px;
+  color: #01fe87;
+  position: absolute;
+  top: 1300px;
+  left: 3%;
+  padding: 0 10px;
+}
+
+.ul4{
+  list-style: circle; /* Remove default bullets */
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 1330px;
+  left: 6%;
+  padding: 0 10px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  color: #01fe87;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ac07ff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.pdd{
+  font-size: 20px;
+  color: #01fe87;
+  position: absolute;
+  top: 1400px;
+  left: 3%;
+  padding: 0 10px;
+}
+
+.per{
+  color: #ac07ff;
+  font-size: 16px;
+}
+
+.dob{
+  position: absolute;
+  top: 1430px;
+  left: 5%;
+  padding: 0 10px;
+}
