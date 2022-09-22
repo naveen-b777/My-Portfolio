@@ -90,8 +90,8 @@ h2:hover::after{
 .animated-text{
   color: #ac07ff;
   position: absolute;
-  top: 65%;
-  left: 52%;
+  top: 420px;
+  left: 800px;
   transform: translate(-50%,-50%);
   background: none;
   padding: 0 40px;
@@ -136,8 +136,8 @@ h2:hover::after{
 .div1{
   color: white;
   position: absolute;
-  top: 60%;
-  left: 30%;
+  top: 390px;
+  left: 490px;
   font-size: 40px;
 }
 
